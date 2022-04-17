@@ -1,0 +1,39 @@
+:root {
+    --dark-green: rgb(0, 99, 12);
+    --light-trans-green: rgba(134, 255, 156, 0.295);
+    --light-green: rgb(135, 255, 155);
+}
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top: 10%;
+}
+#wrapper {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px 20px;
+    background-color: var(--dark-green);
+}
+.cat-div {
+    text-align: center;
+    font-size: 16pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: none;
+    width: 300px;
+    height: fit-content;
+    padding: 10px;
+    box-sizing: border-box;
+    background: var(--light-green);
+    border-radius: 10px;
+    border: solid black 5px;
+}
